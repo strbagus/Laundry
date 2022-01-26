@@ -63,7 +63,6 @@
                             <?php
                             if($d['transaksi_status']=="proses"){
                                 echo "<div class='label label-warning'>PROSES</div>";
-
                             }else if($d['transaksi_status']=="selesai"){
                                 echo "<div class='label label-info'>SELESAI</div>";
                             }else if($d['transaksi_status']=="diambil"){
@@ -75,6 +74,8 @@
                                 <a href="transaksi_invoice.php?id=<?php echo $d['transaksi_id']; ?>" target="_blank" class="btn btn-sm btn-success">Invoice</a>
                                 <a href="transaksi_edit.php?id=<?php echo $d['transaksi_id']; ?>" class="btn btn-sm btn-warning">Edit</a>
                                 <a href="#" onClick = "confirm_modal('transaksi_delete.php?id=<?php echo $d['transaksi_id']; ?>');" class="btn btn-sm btn-danger">Batal</a>
+                                
+                                <a href="transaksi_status?id=<?php echo $d['transaksi_id']; ?>" class='btn btn-primary'>Update Status</a>          
                             </td>
                         </tr>
                     <?php

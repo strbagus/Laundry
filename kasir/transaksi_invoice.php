@@ -11,7 +11,7 @@
     <!-- cek apakah sudah login -->
     <?php
     session_start();
-    if($_SESSION['status']!="admin_login"){
+    if($_SESSION['status']!="kasir_login"){
     header("location:../index.php?pesan=belum_login");
     }
     ?>

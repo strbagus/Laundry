@@ -1,6 +1,6 @@
 <?php
     // nama host, Username, password dan nama database
-    $koneksi = mysqli_connect("localhost","root","","pwpb_laundry");
+    $koneksi = mysqli_connect("localhost","bagus","1sampai8","pwpb_laundry");
     // Periksa Koneksi
     if (mysqli_connect_errno()){
     echo "Koneksi database gagal : " . mysqli_connect_error();

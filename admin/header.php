@@ -57,7 +57,10 @@
                         <a href="transaksi"><i class="glyphicon glyphicon-shopping-cart"></i>Transaksi</a>
                     </li>
                     <li>
-                        <a href="laporan"><i class="glyphicon glyphicon-usd"></i>Laporan</a>
+                        <a href="laporan"><i class="glyphicon glyphicon-stats"></i>Laporan</a>
+                    </li>
+                    <li>
+                        <a href="omset"><i class="glyphicon glyphicon-usd"></i>Omset</a>
                     </li>
                     <li>
                         <a href="password"><i class="glyphicon glyphicon-eye-open"></i>Ganti Password</a>

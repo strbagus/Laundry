@@ -42,7 +42,10 @@
                         <a href="index.php"><i class="glyphicon glyphicon-home"></i>Dashboard</a>
                     </li>
                     <li>
-                        <a href="laporan"><i class="glyphicon glyphicon-usd"></i>Laporan</a>
+                        <a href="laporan"><i class="glyphicon glyphicon-stats"></i>Laporan</a>
+                    </li>
+                    <li>
+                        <a href="omset"><i class="glyphicon glyphicon-usd"></i>Omset</a>
                     </li>
                     <li>
                         <a href="password"><i class="glyphicon glyphicon-eye-open"></i>Ganti Password</a>

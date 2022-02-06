@@ -34,8 +34,8 @@ include 'header.php';
                 <tr>
                     <td><?php echo $no++; ?></td>
                     <td><?php echo $d['outlet_nama']; ?></td>
-                    <td><?php echo $d2['COUNT(transaksi_outlet)'] ;?></td>
-                    <td><?php echo "Rp.".$d2['SUM(transaksi_harga)']; ?></td>
+                    <td><?php echo number_format($d2['COUNT(transaksi_outlet)']) ;?></td>
+                    <td><?php echo "Rp.".number_format($d2['SUM(transaksi_harga)']); ?></td>
                 </tr>
             <?php
             }
@@ -46,7 +46,7 @@ include 'header.php';
 
                 <tr>
                     <td colspan="3" class="text-right">Total</td>
-                    <td><?php echo "Rp.".$d3['SUM(transaksi_harga)'] ?></td>
+                    <td><?php echo "Rp.".number_format($d3['SUM(transaksi_harga)']); ?></td>
                 </tr>
             </table>
         </div>
